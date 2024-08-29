@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title></title> cart</title>
+    <link rel="stylesheet" href="./STYLE.CSS">
+</head>
+<body>
+    <div class="cart-item">
+        <img src="https://i.pinimg.com/564x/f1/e0/97/f1e097c70e701c771e46454ce63c30df.jpg" alt="Product Image">
+        <h3>Product Name</h3>
+        <p>Price: $<span class="price">100</span></p>
+        <div class="quantity">
+            <button class="minus">-</button>
+            <input type="number" value="1" min="1">
+            <button class="plus">+</button>
+        </div>
+        <p>Total: $<span class="item-total">100</span></p>
+        <button class="delete">Delete</button>
+        <button class="like">&#10084;</button>
+    </div>
+    <div class="cart-total">
+        Total Price: $<span class="total-price">100</span>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
